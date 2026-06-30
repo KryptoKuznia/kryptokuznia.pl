@@ -16,5 +16,8 @@
   # https://devenv.sh/git-hooks/
   # git-hooks.hooks.shellcheck.enable = true;
 
+  # https://devenv.sh/processes/
+  processes.web.exec = "npm run dev";
+
   # See full reference at https://devenv.sh/reference/options/
 }
