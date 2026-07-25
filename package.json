@@ -6,7 +6,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "prepare": "husky",
+    "release:dry-run": "semantic-release --dry-run --no-ci"
   },
   "dependencies": {
     "next": "16.2.10",
@@ -15,11 +17,21 @@
     "recharts": "^3.10.0"
   },
   "devDependencies": {
+    "@commitlint/cli": "^21.2.1",
+    "@commitlint/config-conventional": "^21.2.0",
+    "@semantic-release/changelog": "^7.0.0",
+    "@semantic-release/commit-analyzer": "^13.0.1",
+    "@semantic-release/git": "^11.0.1",
+    "@semantic-release/github": "^12.0.9",
+    "@semantic-release/npm": "^13.1.5",
+    "@semantic-release/release-notes-generator": "^14.1.1",
     "@types/node": "26.1.1",
     "@types/react": "19.2.17",
     "@types/react-dom": "19.2.3",
     "autoprefixer": "10.5.4",
+    "husky": "^9.1.7",
     "postcss": "8.5.23",
+    "semantic-release": "^25.0.8",
     "tailwindcss": "3.4.17",
     "typescript": "6.0.3"
   },
