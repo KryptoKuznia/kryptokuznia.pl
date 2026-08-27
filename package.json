@@ -33,7 +33,7 @@
     "postcss": "8.5.23",
     "semantic-release": "^25.0.8",
     "tailwindcss": "3.4.17",
-    "typescript": "6.0.3"
+    "typescript": "7.0.2"
   },
   "overrides": {
     "postcss": "8.5.23"
