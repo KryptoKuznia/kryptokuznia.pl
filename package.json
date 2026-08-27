@@ -32,7 +32,7 @@
     "husky": "^9.1.7",
     "postcss": "8.5.23",
     "semantic-release": "^25.0.8",
-    "tailwindcss": "3.4.17",
+    "tailwindcss": "4.3.3",
     "typescript": "6.0.3"
   },
   "overrides": {
